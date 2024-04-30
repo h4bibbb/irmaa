@@ -56,7 +56,7 @@ nav a:hover {
 /* Hero Section */
 .hero {
   height: 300px;
-  background-image: url(./img/welcome\ eiem\ beauty.webp);
+  background-image: url(./Img/welcome\ eiem\ beauty.jpg);
   background-size: 100% auto; /* Atau ganti dengan auto 100% */
   background-position: center;
   border-bottom: 3px solid rgb(255, 199, 208);
