@@ -1,0 +1,186 @@
+/* Reset CSS */
+/* Reset CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(); /* Tambahkan baris ini */
+  background-size: cover; /* Menyesuaikan ukuran gambar agar sesuai dengan layar */
+  background-position: center; /* Posisi gambar pada tengah halaman */
+  background-attachment: fixed; /* Membuat gambar tetap pada posisinya saat halaman digulir */
+  background-color: #fadbd8;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 800px;
+  background-color: #ffffff; /* Ganti dengan kode warna latar belakang yang diinginkan */
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.judul {
+  font-size: 36px;
+  color: #333;
+}
+
+nav ul {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+  height: 300px;
+  background-image: url(./img/welcome\ eiem\ beauty.webp);
+  background-size: 100% auto; /* Atau ganti dengan auto 100% */
+  background-position: center;
+  border-bottom: 3px solid rgb(255, 199, 208);
+}
+
+/* Content Section */
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content .penulis {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.content .penulis a {
+  color: #007bff;
+}
+
+.content p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.copy {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Form */
+.container form {
+  margin-top: 20px;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.container form input[type="text"],
+.container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* Table Style */
+/* Table Style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  background-color: rgb(
+    248,
+    208,
+    215
+  ); /* Ini adalah kode untuk mengatur warna latar belakang seluruh sel dalam tabel */
+}
+
+table th {
+  background-color: rgb(248, 208, 215);
+}
+
+/* untuk produk */
+.produkk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.product {
+  width: 200px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+.product h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.product p {
+  font-size: 14px;
+}
